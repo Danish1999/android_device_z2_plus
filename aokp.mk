@@ -20,7 +20,7 @@ $(call inherit-product, device/zuk/z2_plus/full_z2_plus.mk)
 $(call inherit-product, vendor/aokp/configs/common_full_phone.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := lineage_z2_plus
+PRODUCT_NAME := aokp_z2_plus
 BOARD_VENDOR := zuk
 PRODUCT_DEVICE := z2_plus
 PRODUCT_GMS_CLIENTID_BASE := android-zuk
