@@ -17,7 +17,7 @@
 $(call inherit-product, device/zuk/z2_plus/full_z2_plus.mk)
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/aokp/configs/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := lineage_z2_plus
@@ -27,7 +27,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-zuk
 TARGET_VENDOR_PRODUCT_NAME := z2_plus
 TARGET_VENDOR_DEVICE_NAME := z2_plus
 
-UNOFFICIAL_BUILD_TYPE := NIBAJI
+UNOFFICIAL_BUILD_TYPE := SHAHZEB
 
 # Overlays (inherit after vendor/lineage to ensure we override it)
 DEVICE_PACKAGE_OVERLAYS += \
@@ -38,5 +38,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="z2_plus" \
     PRODUCT_NAME="z2_plus" \
-    BUILD_FINGERPRINT="ZUK/z2_plus/z2_plus:7.0/NRD90M/3.1.117_171110:user/release-keys" \
     PRIVATE_BUILD_DESC="z2_plus-user 7.0 NRD90M 3.1.117_171110 release-keys"
+
+BUILD_FINGERPRINT="ZUK/z2_plus/z2_plus:7.0/NRD90M/3.1.117_171110:user/release-keys" 
