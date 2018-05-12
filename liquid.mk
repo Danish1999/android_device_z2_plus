@@ -39,12 +39,13 @@ TARGET_VENDOR := zuk
 
 # Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT="ZUK/z2_plus/z2_plus:7.0/NRD90M/2.5.412_170428:user/release-keys" \
     PRIVATE_BUILD_DESC="z2_plus-user 7.0 NRD90M 2.5.412_170428 release-keys"
+
+BUILD_FINGERPRINT="ZUK/z2_plus/z2_plus:7.0/NRD90M/2.5.412_170428:user/release-keys"
 
 # Maintainer info
 PRODUCT_BUILD_PROP_OVERRIDES += \
-DEVICE_MAINTAINERS="Shahzeb (SF11)"
+DEVICE_MAINTAINERS="Shahzeb Qureshi"
 
 # Telephony packages
 PRODUCT_PACKAGES += \
